@@ -340,6 +340,7 @@ async function deleteAllIssueTypes(pageLength: number) {
 /**
 I recommend running each function on it's own while keeping the others commented out 
 */
+
 //deleteAllComponents("fieldconfigurationscheme", pageLengthFieldConfigurationScheme);
 //deleteAllComponents("fieldconfiguration", pageLengthFieldConfiguration);
 //deleteAllComponents("workflowscheme", pageLengthWorkflowScheme);
