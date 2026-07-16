@@ -1,1 +1,1 @@
-Make sure to run npx tsc before running this script 
+Make sure to run "npx tsc" in your folder before running this script 
