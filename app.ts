@@ -23,9 +23,8 @@ require('dotenv').config();
 console.log(process.env.EMAIL);
 const EMAIL = process.env.EMAIL;
 const API_TOKEN = process.env.API_TOKEN;
-const ATLASSIAN_URL = process.env.ATLASSIAN_URL
+const ATLASSIAN_URL = process.env.ATLASSIAN_URL + '/rest/api/3/'
 console.log(process.env.EMAIL);
-console.log(process.env.ATLASSIAN_LOGIN);
 
 import fetch from 'node-fetch';
 
@@ -338,7 +337,8 @@ async function deleteAllIssueTypes(pageLength: number) {
 
 
 /**
-I recommend running each function on it's own while keeping the others commented out 
+ * ==== RUN THE SCRIPT FROM HERE ====
+I recommend running each function on it's own while keeping the others commented out or ensure they're not running in parallel.
 */
 
 //deleteAllComponents("fieldconfigurationscheme", pageLengthFieldConfigurationScheme);
